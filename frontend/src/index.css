@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    background-color: #171616e6;
+    
+}
+
+.three{
+    display: none;
+}
+@media (max-width: 890px) {
+    .three{
+        display: flex;
+    }
+    .nav{
+    display: block;
+
+    }
+    .nav:hover,
+  .nav.active {
+    background: none;
+  }
+}
+.todo-update{
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .home-text1{
+    position: relative;
+    font-size: 40px;
+  }
+  .home-text2{
+    position: relative;
+    font-size: 40px;
+  }
+  .home-text3{
+    position: relative;
+    font-size: 20px;
+    
+  }
+  .home-text4{
+    position: relative;
+    font-size: 20px;
+  }
+
+}
